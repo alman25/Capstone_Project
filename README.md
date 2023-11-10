@@ -15,7 +15,7 @@ If the player in the loser column's last name comes alphabetically before the pl
 The point was to have an arbitrary result between winners and losers. Turned out a balanced classification of the results came back 50/50. From there, I trained the
 algorithm to review data such as the player's ranking, betting odds and player points to figure out who the accurate winner was in each match.
 
-I used random forest models, decision trees and KNN models find the percentage of times the algorithm could accurately get correct winner of each match. These models were accurate around 65%-70% of the time. 
+I used random forest models, decision trees and KNN models to find the percentage of times the algorithm could accurately get correct winner of each match. These models were accurate around 65%-70% of the time. 
 
 To increase accuracy, I could add more years to the data. Fine tuning the hyperparameters of the other classifiers and adding more feature engineering could improve
 the quality of predictions as well.
